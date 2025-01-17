@@ -55,7 +55,7 @@ async function main() {
 		
 	console.log("Sent message");
 		
-		Create the callback function
+	// Create the callback function
 	const callback = (wakuMessage:any) => {
 		// Check if there is a payload on the message
 		if (!wakuMessage.payload) return;
